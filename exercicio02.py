@@ -1,5 +1,8 @@
+# Aqui usei novamente o 'while' e iniciei o laço do loop caso o 'user' quiser continuar o progama.
+# neste foi necessário eu implmentar o 'Break' para finalizar certas estruturas
 while True:
 
+# aqui é o nome do progaminha.
   print("VERIFICAÇÃO DE PAR OU ÍMPAR:")
 
   try:
@@ -15,7 +18,6 @@ while True:
 
   except ValueError:
     print("(Oops! Isso não é um número inteiro válido. Feche e execute o progama novamente.)")
-    input("(Teclhe Enter para fechar)")
 
   saida = input("(Deseja Encerrar? 'S ou N'): ")
  

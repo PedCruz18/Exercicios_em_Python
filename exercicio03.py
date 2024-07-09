@@ -9,13 +9,17 @@ while True:
  
     saida = input("(Deseja Encerrar? 'S ou N'): ")    
   except ValueError:
-    print("(Oops! Isso não é um número inteiro válido. Feche e execute o progama novamente.)")
-    input("(Teclhe Enter para fechar)")
- 
+    print("(Oops! Isso não é um número inteiro válido. Tente Novamente.)")
+
+    saida = input("Deseja Encerrar? 'S ou N'): ")
+   
   if saida == "S":
-    break
+    exit()
+   
   if saida == "s":
-     break
+    exit()
+  
+
 
 
 
