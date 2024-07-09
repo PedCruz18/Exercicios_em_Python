@@ -1,4 +1,5 @@
-# Aqui aprendi sobre o 'while' e iniciei o laço do loop caso o 'user' quiser continuar o progama.
+# para mim esse foi o mais completo. então deixei comentários.
+# com o 'while' e iniciei o laço do loop caso o 'user' quiser continuar o progama.
 while True:
 
 # aqui é o nome do progaminha.
@@ -40,6 +41,7 @@ while True:
     print("(Oops! Isso não é um número válido. Feche e execute o progama novamente.)")
   saida = input("(Deseja Encerrar? 'S ou N'): ")
  
+# aqui finalizer com o 'Break' para finalização do progama inteiro.
   if saida == "S":
     break
   if saida == "s":

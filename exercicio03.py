@@ -1,10 +1,6 @@
-# Aqui usei novamente o 'while' e iniciei o laço do loop caso o 'user' quiser continuar o progama.
 while True:
 
-# aqui é o nome do progaminha.
   print("CONVERTER PARA FAHRENHEIT:")
- 
-# aqui declarei minha constante e também aprendi o 'Try' o 'Except' e o 'Break'. assim coloquei que o 'user' só pode usar números inteiros.
 
   try:
     NumberCelcius = int(input("Por favor, digite um número em Celcius: "))

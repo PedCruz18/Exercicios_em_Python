@@ -1,12 +1,7 @@
 
-
- # aqui é o nome do progaminha.
-print("VERIFICAÇÃO DE IDADE PARA VOTAR:")
- 
-# aqui declarei minha constante
 while True: 
   try:
-   
+   print("VERIFICAÇÃO DE IDADE PARA VOTAR:")
    IdadeUser = int(input("Por favor, digite a sua Idade: "))
    
    if IdadeUser >= 16:

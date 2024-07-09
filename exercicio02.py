@@ -1,7 +1,5 @@
-# Aqui usei novamente o 'while' e iniciei o laço do loop caso o 'user' quiser continuar o progama.
 while True:
 
-# aqui é o nome do progaminha.
   print("VERIFICAÇÃO DE PAR OU ÍMPAR:")
 
   try:
