@@ -14,10 +14,11 @@ while True:
     NumberOne = int(input("Por favor, digite um número: "))
     NumberTwo = int(input("Por favor, digite outro número: "))
   except ValueError:
-    print("Oops! Isso não é um número válido. Feche e execute o progama novamente.")
+    print("(Oops! Isso não é um número válido. Feche e execute o progama novamente.)")
     input("(Teclhe Enter para fechar)")
+    exit()
   
-    Operação = (input("> Qual operação deseja fazer? +, -, *, / : "))
+  Operação = (input("> Qual operação deseja fazer? +, -, *, / : "))
 
 # aqui comecei a fazer as operações selecionadas e mandei mostrar no terminal.
   if Operação == "+":
