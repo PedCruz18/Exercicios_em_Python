@@ -24,9 +24,11 @@ while True:
     print(NumberOne * NumberTwo)
 
 # aqui coloquei um detalhe importante. aprendi e usei o 'Try' e 'Except' para quando o  'user' tentar dividir
-# algo pelo número 0, o terminal exibir um erro.
+# algo pelo número 0, o terminal exibir um erro. também fiz a formatação para dizimas terminar com 3 números depois do ponto.
   try:
    operaçãoDiv = NumberOne / NumberTwo
+   operaçãoDiv2 = NumberTwo / NumberOne
+   print(f'{NumberOne / NumberTwo:.3f}')
   except ZeroDivisionError:
    print("(Oops! não é possivel dividir por 0. Tente novamente..)")
 
