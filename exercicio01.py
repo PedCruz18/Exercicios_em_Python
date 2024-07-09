@@ -1,22 +1,35 @@
-# Aqui aprendi sobre o ''while'' e iniciei o laço do loop caso o 'user' quiser continuar o progama.
-while True:
+
 
  # aqui é o nome do progaminha.
- print("VERIFICAÇÃO DE IDADE PARA VOTAR:")
+print("VERIFICAÇÃO DE IDADE PARA VOTAR:")
  
-# Aqui estou perguntando ao 'user' qual é a idade dele.
- IdadeUser = int(input("Qual é a sua Idade? >> "))
- 
-# Aqui estou comparando a idade ao número minimo requerido. 
- if IdadeUser >= 16:
-    print(">> você PODE votar :)")
- else:
+# aqui declarei minha constante
+while True: 
+  try:
+   
+   IdadeUser = int(input("Por favor, digite a sua Idade: "))
+   
+   if IdadeUser >= 16:
+    print(">> você PODE votar :)") 
+   
+   else:
     print(">> você NÃO pode votar :(")
+   saida = input("Deseja Encerrar? 'S ou N'): ")
+   
+   if saida == "S":
+    exit()
+   
+   if saida == "s":
+    exit()
+  
+  except ValueError:
+   print("(Oops! Essa não é uma Idade válida. Feche e execute o progama novamente.)")
+   saida = input("Deseja Encerrar? 'S ou N'): ")
+  
+   if saida == "S":
+    exit()
+  
+   if saida == "s":
+    exit()
 
-# aqui estou retomando o laço do while e perguntando se o 'user' deseja continuar ou não o progaminha.
- saida = input("(Deseja Encerrar? 'S ou N'): ")
- 
- if saida == "S":
-    break
- if saida == "s":
-     break
+

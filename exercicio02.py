@@ -3,21 +3,22 @@ while True:
 
 # aqui é o nome do progaminha.
   print("VERIFICAÇÃO DE PAR OU ÍMPAR:")
+
+  try:
+
+    Number = int(input("Por favor, digite um número: "))
+    Number2 = Number % 2
+
+    if Number2 == 0:
+     print(">> "f'{Number}'" é Par")
  
-# aqui declarei minhas 'var'.
-  Number = int(input("Digite um número >> "))
+    else:
+     print(">> "f'{Number}'" é Ímpar") 
 
-# aqui estou fazendo o número escolhido ser dividido por 2, e após isso
-# verificar se é diferente de 0 ou não. 
-  Number2 = Number % 2
+  except ValueError:
+    print("(Oops! Isso não é um número inteiro válido. Feche e execute o progama novamente.)")
+    input("(Teclhe Enter para fechar)")
 
-  if Number2 == 0:
-    print(">> "f'{Number}'" é Par")
- 
-  else:
-    print(">> "f'{Number}'" é Ímpar")
-
-# aqui estou retomando o laço do while e perguntando se o 'user' deseja continuar ou não o progaminha.
   saida = input("(Deseja Encerrar? 'S ou N'): ")
  
   if saida == "S":
