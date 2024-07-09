@@ -1,4 +1,4 @@
-#Aqui aprendi sobre o ''while'' e iniciei o laço do loop caso o 'user' quiser continuar o progama.
+# Aqui usei novamente o 'while' e iniciei o laço do loop caso o 'user' quiser continuar o progama.
 while True:
 
 # aqui é o nome do progaminha.
@@ -18,7 +18,7 @@ while True:
     print(">> "f'{Number}'" é Ímpar")
 
 # aqui estou retomando o laço do while e perguntando se o 'user' deseja continuar ou não o progaminha.
-  saida = input("Deseja Encerrar? 'S ou N' ")
+  saida = input("(Deseja Encerrar? 'S ou N'): ")
  
   if saida == "S":
     break

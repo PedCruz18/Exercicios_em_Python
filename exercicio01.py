@@ -14,7 +14,7 @@ while True:
     print(">> você NÃO pode votar :(")
 
 # aqui estou retomando o laço do while e perguntando se o 'user' deseja continuar ou não o progaminha.
- saida = input(">> Deseja Encerrar? 'S ou N' > ")
+ saida = input("(Deseja Encerrar? 'S ou N'): ")
  
  if saida == "S":
     break
