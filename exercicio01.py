@@ -9,6 +9,7 @@ while True:
    
    else:
     print(">> você NÃO pode votar :(")
+    
    saida = input("Deseja Encerrar? 'S ou N'): ")
    
    if saida == "S":
