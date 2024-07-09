@@ -9,9 +9,9 @@ while True:
   subtração = "-"
   multiplicação = "*"
   divisão = "/"
-  NumberOne = float(input("Por favor, digite um número: "))
-  NumberTwo = float(input("Por favor, digite outro número: "))
-  Operação = (input("Qual operação deseja fazer? +, -, *, / : "))
+  NumberOne = float(input("> Por favor, digite um número: "))
+  NumberTwo = float(input("> Por favor, digite outro número: "))
+  Operação = (input("> Qual operação deseja fazer? +, -, *, / : "))
 
 # aqui comecei a fazer as operações selecionadas e mandei mostrar no terminal.
   if Operação == "+":
@@ -28,7 +28,7 @@ while True:
   try:
    operaçãoDiv = NumberOne / NumberTwo
   except ZeroDivisionError:
-   print("Oops! não é possivel dividir por 0. Tente novamente...")
+   print("(Oops! não é possivel dividir por 0. Tente novamente..)")
 
 # aqui estou retomando o laço do while e perguntando se o 'user' deseja continuar ou não o progaminha.
   saida = input("(Deseja Encerrar? 'S ou N'): ")
@@ -37,5 +37,8 @@ while True:
     break
   if saida == "s":
      break
-
+  if saida == "Sim":
+    break
+  if saida == "sim":
+     break
   
