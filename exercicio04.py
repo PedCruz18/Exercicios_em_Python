@@ -36,19 +36,19 @@ while True:
       operaçãoDiv2 = NumberTwo / NumberOne
       print(f'{NumberOne / NumberTwo:.3f}')
      except ZeroDivisionError:
-      print("(Oops! não é possivel dividir por 0. Tente novamente..)") 
+       print("(Oops! Não é possivel dividir por 0. Tente novamente.)") 
   except ValueError:
-    print("(Oops! Isso não é um número válido. Feche e execute o progama novamente.)")
-  saida = input("(Deseja Encerrar? 'S ou N'): ")
+    print("(Oops! Isso não é um número válido. Tente Novamente.)")
+    saida = input("(Deseja Encerrar? 'S ou N'): ")
  
-# aqui finalizer com o 'Break' para finalização do progama inteiro.
+# aqui finalizei com o 'Break' para finalização do progama inteiro.
   if saida == "S":
     break
-  if saida == "s":
+  elif saida == "s":
      break
-  if saida == "Sim":
+  elif saida == "Sim":
     break
-  if saida == "sim":
+  elif saida == "sim":
      break
 
   

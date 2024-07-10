@@ -5,10 +5,10 @@ while True:
    IdadeUser = int(input("Por favor, digite a sua Idade: "))
    
    if IdadeUser >= 16:
-    print(">> você PODE votar :)") 
+    print("> você PODE votar :)") 
    
    else:
-    print(">> você NÃO pode votar :(")
+    print("> você NÃO pode votar :(")
     
    saida = input("Deseja Encerrar? 'S ou N'): ")
    
