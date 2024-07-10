@@ -19,7 +19,7 @@ while True:
     exit()
   
   except ValueError:
-   print("(Oops! Essa não é uma Idade válida. Feche e execute o progama novamente.)")
+   print("(Oops! Essa não é uma Idade válida. Tente Novamente.)")
    saida = input("Deseja Encerrar? 'S ou N'): ")
   
    if saida == "S":
