@@ -1,10 +1,8 @@
 
 while True: 
+  print("CALCULE SUA MÉDIA:")
+
   try:
-
-
-# nome de 
-   print("CALCULE SUA MÉDIA:")
 
    nota01 = float(input("Por favor, digite sua nota 1: "))
    nota02 = float(input("Por favor, digite sua nota 2: "))

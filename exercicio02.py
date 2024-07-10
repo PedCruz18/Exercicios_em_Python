@@ -1,5 +1,4 @@
 while True:
-
   print("VERIFICAÇÃO DE PAR OU ÍMPAR:")
 
   try:

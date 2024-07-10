@@ -1,7 +1,8 @@
 
 while True: 
+  print("VERIFICAÇÃO DE IDADE PARA VOTAR:")
+
   try:
-   print("VERIFICAÇÃO DE IDADE PARA VOTAR:")
    IdadeUser = int(input("Por favor, digite a sua Idade: "))
    
    if IdadeUser >= 16:

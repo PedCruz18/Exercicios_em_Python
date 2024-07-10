@@ -1,7 +1,6 @@
 while True:
-
   print("CONVERTER PARA FAHRENHEIT:")
-
+ 
   try:
     NumberCelcius = int(input("Por favor, digite um número em Celcius: "))
     NumberFahrenheit = NumberCelcius * 9/5 + 32

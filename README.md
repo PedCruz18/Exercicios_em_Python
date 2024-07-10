@@ -9,6 +9,6 @@ Referentes a aula 08/07/24.
  dos programas.
 
  Python é incrível :)
-exercícios completos de python.
-senac campo grande.
+Exercícios completos de Python.
+SENAC Campo Grande.
 prof: André Luferat.
