@@ -9,23 +9,13 @@ while True:
    
    else:
     print("> você NÃO pode votar :(")
-    
-   saida = input("Deseja Encerrar? 'S ou N'): ")
-   
-   if saida == "S":
-    exit()
-   
-   if saida == "s":
-    exit()
-  
+
   except ValueError:
    print("(Oops! Essa não é uma Idade válida. Tente Novamente.)")
+
+# Estruta de fechar o progama.
    saida = input("Deseja Encerrar? 'S ou N'): ")
-  
-   if saida == "S":
-    exit()
-  
-   if saida == "s":
+   if saida == "S" or saida == "s":
     exit()
 
 

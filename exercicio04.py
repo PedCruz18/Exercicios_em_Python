@@ -11,7 +11,9 @@ while True:
   multiplicação = "*"
   divisão = "/"
   
+
 # Aqui coloquei um detalhe importante. aprendi e usei o 'Try' o 'Except' e o 'Break' para se o 'user' tentar colocar uma letra no lugar de um número, o terminal exibe o erro.
+# Inicio do loop inteiro.
   try:
     NumberOne = int(input("Por favor, digite um número: "))
     NumberTwo = int(input("Por favor, digite outro número: "))    
@@ -37,18 +39,15 @@ while True:
       print(f'{NumberOne / NumberTwo:.3f}')
      except ZeroDivisionError:
        print("(Oops! Não é possivel dividir por 0. Tente novamente.)") 
+
+# termino do loop inteiro
+# msg de erro de caracter       
   except ValueError:
     print("(Oops! Isso não é um número válido. Tente Novamente.)")
-    saida = input("(Deseja Encerrar? 'S ou N'): ")
  
-# aqui finalizei com o 'Break' para finalização do progama inteiro.
-  if saida == "S":
-    break
-  elif saida == "s":
-     break
-  elif saida == "Sim":
-    break
-  elif saida == "sim":
-     break
+# estruta de fechar o progama.
+  saida = input("Deseja Encerrar? 'S ou N'): ")
+  if saida == "S" or saida == "s":
+    exit()
 
   
